@@ -1,6 +1,6 @@
 {
   "Version": "1.2",
-  "ReleaseNotes": "As atualizações servem para mante-lo conectado! Se chegar, atualize!",
+  "ReleaseNotes": "ATUALIZAÇÃO CHAMADA WHATS VIDEO E NORMAL - TESTEM!!! UPNET",
   "UrlUpdate": "https://raw.githubusercontent.com/ricardinhofps/upnet/main/atualizacao",
   "Sms": "https://pastebin.com/raw/Wz6H9B6z",
   "EmailFeedback": "uptvmax@gmail.com",
@@ -8,7 +8,7 @@
   "UrlTermos": "https://raw.githubusercontent.com/ricardinhofps/upnet/main/termos.html",
   "CheckUser": "true",
   "Udp": [
-  {"Porta": "7300"}, {"Porta": "7100"}, {"Porta": "7200"}, {"Porta": "7400"}, {"Porta": "7500"}, {"Porta": "7600"}, {"Porta": "7700"}
+  {"Porta": "7300"}
   ],
   "Servers": [
     {
