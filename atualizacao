@@ -1,6 +1,6 @@
 {
-  "Version": "1.1",
-  "ReleaseNotes": "Esta é sua primeira atualização! Fique sempre atento, pois caso não atualize poderá ficar sem conexão :)!",
+  "Version": "1.2",
+  "ReleaseNotes": "As atualizações servem para mante-lo conectado! Se chegar, atualize!",
   "UrlUpdate": "https://raw.githubusercontent.com/ricardinhofps/upnet/main/atualizacao",
   "Sms": "https://pastebin.com/raw/Wz6H9B6z",
   "EmailFeedback": "uptvmax@gmail.com",
@@ -8,7 +8,7 @@
   "UrlTermos": "https://raw.githubusercontent.com/ricardinhofps/upnet/main/termos.html",
   "CheckUser": "true",
   "Udp": [
-  {"Porta": "7300"}, {"Porta": "7100"}, {"Porta": "7400"}, {"Porta": "7500"}, {"Porta": "7600"}, {"Porta": "7700"}
+  {"Porta": "7300"}, {"Porta": "7100"}, {"Porta": "7200"}, {"Porta": "7400"}, {"Porta": "7500"}, {"Porta": "7600"}, {"Porta": "7700"}
   ],
   "Servers": [
     {
@@ -23,11 +23,22 @@
       "PASS": ""
     },
     {
-      "Name": "UpNet | FREE",
+      "Name": "UpNet | VIP 2",
       "TYPE": "free",
       "FLAG": "br.png",
-      "ServerIP": "net.uptvmax.tk",
-      "CheckUser": "http://net.uptvmax.tk:8989/checkUser",
+      "ServerIP": "sv1.uptvmax.tk",
+      "CheckUser": "http://sv1.uptvmax.tk:8989/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
+    {
+      "Name": "UpNet FREE-BREVE",
+      "TYPE": "free",
+      "FLAG": "br.png",
+      "ServerIP": "sv2.uptvmax.tk",
+      "CheckUser": "http://sv2.uptvmax.tk:8989/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
@@ -105,6 +116,7 @@
       "ProxyPort": "",
       "Info": "Tlsws"
     },
+    
 	{
       "Name": "TIM 2 [SSL]",
       "FLAG": "tim",
@@ -126,6 +138,16 @@
       "Info": "Tlsws"
     },
     {
+  "Name": "TIM 4 REGIOES",
+  "FLAG": "tim",
+  "Payload": "GET wss://static.r4you.co  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+  "SNI": "static.r4you.co",
+  "TlsIP": "172.67.70.43",
+  "ProxyIP": "",
+  "ProxyPort": "443",
+  "Info": "Tlsws"
+},
+    {
       "Name": "CLARO 1 [SSL]",
       "FLAG": "claro",
       "Payload": "GET wss://go.kaltura.com HTTP/1.1[crlf]Host: [app_host][crlf]Connection: upgrade[crlf]Upgrade: websocket [crlf][crlf]",
@@ -145,6 +167,36 @@
       "ProxyPort": "",
       "Info": "Tlsws"
     },
+    {
+  "Name": "CLARO 3",
+  "FLAG": "claro",
+  "Payload": "GET wss://api.new.livestream.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+  "SNI": "api.new.livestream.com",
+  "TlsIP": "api.new.livestream.com",
+  "ProxyIP": "",
+  "ProxyPort": "443",
+  "Info": "Tlsws"
+},
+{
+  "Name": "CLARO 4 SPEED",
+  "FLAG": "claro",
+  "Payload": "GET wss://ct.livestream.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+  "SNI": "ct.livestream.com",
+  "TlsIP": "ct.livestream.com",
+  "ProxyIP": "",
+  "ProxyPort": "443",
+  "Info": "Tlsws"
+},
+{
+  "Name": "CLARO 5 CHUVA",
+  "FLAG": "claro",
+  "Payload": "GET wss://uploads.api.new.livestream.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+  "SNI": "uploads.api.new.livestream.com",
+  "TlsIP": "uploads.api.new.livestream.com",
+  "ProxyIP": "",
+  "ProxyPort": "443",
+  "Info": "Tlsws"
+},
     {
       "Name": "OI 1 [PROXY]",
       "FLAG": "oi",
